@@ -1,24 +1,38 @@
-import logo from './logo.svg';
+import React, {useState} from 'react';
 import './App.css';
-
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom"
+import Home from "./pages"
+import Calender from "./pages/Calender"
+import Domd from "./pages/Domd"
+import Event from "./pages/Event"
+import Groupies from "./pages/Groupies"
+import Movies from "./pages/Movies"
+import WoF from "./pages/WoF"
+import Navbar from './components/Navbar';
+import Sidebar from './components/Sidebar';
 function App() {
+  const  [isOpen, setIsOpen] = useState(false)
+
+  const toggle = () =>{
+      setIsOpen(!isOpen)
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Router>
+      <Sidebar isOpen={isOpen} toggle={toggle}/>
+      <Navbar toggle={toggle}/>
+
+      <Switch>
+        <Route path="/" exact component={Home}></Route>
+        <Route path="/groupies" exact component={Groupies}></Route>
+        <Route path="/WallOfFame" exact component={WoF}></Route>
+        <Route path="/taggfilmer" exact component={Movies}></Route>
+        <Route path="/calender" exact component={Calender}></Route>
+        <Route path="/events" exact component={Event}></Route>
+        <Route path="/domd" exact component={Domd}></Route>
+      </Switch>
+    </Router>
+    </>
   );
 }
 
