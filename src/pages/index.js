@@ -1,7 +1,6 @@
 import React from 'react'
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
-import dart from '../res/dart_slide.jpg'
 import patet from '../res/patetbild.png'
 import domd from '../res/dömd.png'
 

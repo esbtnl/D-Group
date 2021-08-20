@@ -10,6 +10,7 @@ import Movies from "./pages/Movies"
 import WoF from "./pages/WoF"
 import Navbar from './components/Navbar';
 import Sidebar from './components/Sidebar';
+import Footer from './components/Footer';
 function App() {
   const  [isOpen, setIsOpen] = useState(false)
 
@@ -31,6 +32,8 @@ function App() {
         <Route path="/events" exact component={Event}></Route>
         <Route path="/domd" exact component={Domd}></Route>
       </Switch>
+      <Footer/>
+
     </Router>
     </>
   );

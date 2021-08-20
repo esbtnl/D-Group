@@ -1,5 +1,5 @@
 import React from 'react'
-import { Col, Grid, Row } from './WoFGridElements'
+import { Col, Grid, Row, Card, Name } from './WoFGridElements'
 
 import dg2021 from '../../res/dpateter/dg2021.png';
 import dg1920 from '../../res/dpateter/dg1920.jpg';
@@ -221,121 +221,187 @@ const images = [
     }
 ]
 
-
-
 function WoFGrid() {
-    var row_nr = 0;
-    var col_nr = 0;
-    var row_length = 4;
-    const addImage = (image, i) => {
-        if(col_nr % row_length == 0){
-            <Row>
-
-            </Row>
-        }
-        <Col>
-            <img src={image.src} style={{width:image.thumbnailWidth, height:image.thumbnailHeight }}/>
-        </Col>
-    }
     return (
         <div>
-            <h1>Wall Of Fame Grid</h1>
             <Grid>
                 <Row>
                     <Col size={1}>
-                        <img src={images[0].src} style={{width:"25vw", height:"25vw" }}/>
+                        <Card>
+                            <img src={images[0].src} style={{width:"25vw", height:"25vw" }}/>
+                            <Name>{images[0].caption}</Name>
+                        </Card>
                     </Col>
                     <Col size={1}>
-                        <img src={images[1].src} style={{width:"25vw", height:"25vw" }}/>
+                        <Card>
+                            <img src={images[1].src} style={{width:"25vw", height:"25vw" }}/>
+                            <Name>{images[1].caption}</Name>
+                        </Card>                    
                     </Col>
                     <Col size={1}>
-                        <img src={images[2].src} style={{width:"25vw", height:"25vw" }}/>
+                        <Card>
+                            <img src={images[2].src} style={{width:"25vw", height:"25vw" }}/>
+                            <Name>{images[2].caption}</Name>
+                        </Card>                    
                     </Col>
                     <Col size={1}>
-                        <img src={images[3].src} style={{width:"25vw", height:"25vw" }}/>
+                        <Card>
+                            <img src={images[3].src} style={{width:"25vw", height:"25vw" }}/>
+                            <Name>{images[3].caption}</Name>
+                        </Card>                    
                     </Col>
                 </Row>
                 <Row>
                     <Col size={1}>
-                        <img src={images[4].src} style={{width:"25vw", height:"25vw" }}/>
+                        <Card>
+                            <img src={images[4].src} style={{width:"25vw", height:"25vw" }}/>
+                            <Name>{images[4].caption}</Name>
+                        </Card>                    
                     </Col>
                     <Col size={1}>
-                        <img src={images[5].src} style={{width:"25vw", height:"25vw" }}/>
+                        <Card>
+                            <img src={images[5].src} style={{width:"25vw", height:"25vw" }}/>
+                            <Name>{images[5].caption}</Name>
+                        </Card>                    
                     </Col>
                     <Col size={1}>
-                        <img src={images[6].src} style={{width:"25vw", height:"25vw" }}/>
+                        <Card>
+                            <img src={images[6].src} style={{width:"25vw", height:"25vw" }}/>
+                            <Name>{images[6].caption}</Name>
+                        </Card>                    
                     </Col>
                     <Col size={1}>
-                        <img src={images[7].src} style={{width:"25vw", height:"25vw" }}/>
+                        <Card>
+                            <img src={images[7].src} style={{width:"25vw", height:"25vw" }}/>
+                            <Name>{images[7].caption}</Name>
+                        </Card>                    
+                    </Col>
+                </Row>
+                <Row>
+                <Col size={1}>
+                        <Card>
+                            <img src={images[8].src} style={{width:"25vw", height:"25vw" }}/>
+                            <Name>{images[8].caption}</Name>
+                        </Card>                    
+                    </Col>
+                    <Col size={1}>
+                        <Card>
+                            <img src={images[9].src} style={{width:"25vw", height:"25vw" }}/>
+                            <Name>{images[9].caption}</Name>
+                        </Card>                    
+                    </Col>
+                    <Col size={1}>
+                        <Card>
+                            <img src={images[10].src} style={{width:"25vw", height:"25vw" }}/>
+                            <Name>{images[10].caption}</Name>
+                        </Card>                    
+                    </Col>
+                    <Col size={1}>
+                        <Card>
+                            <img src={images[11].src} style={{width:"25vw", height:"25vw" }}/>
+                            <Name>{images[11].caption}</Name>
+                        </Card>                    
                     </Col>
                 </Row>
                 <Row>
                     <Col size={1}>
-                        <img src={images[8].src} style={{width:"25vw", height:"25vw" }}/>
+                        <Card>
+                            <img src={images[12].src} style={{width:"25vw", height:"25vw" }}/>
+                            <Name>{images[12].caption}</Name>
+                        </Card>                    
                     </Col>
                     <Col size={1}>
-                        <img src={images[9].src} style={{width:"25vw", height:"25vw" }}/>
+                        <Card>
+                            <img src={images[13].src} style={{width:"25vw", height:"25vw" }}/>
+                            <Name>{images[13].caption}</Name>
+                        </Card>                    
                     </Col>
                     <Col size={1}>
-                        <img src={images[10].src} style={{width:"25vw", height:"25vw" }}/>
+                        <Card>
+                            <img src={images[14].src} style={{width:"25vw", height:"25vw" }}/>
+                            <Name>{images[14].caption}</Name>
+                        </Card>                    
                     </Col>
                     <Col size={1}>
-                        <img src={images[11].src} style={{width:"25vw", height:"25vw" }}/>
+                        <Card>
+                            <img src={images[15].src} style={{width:"25vw", height:"25vw" }}/>
+                            <Name>{images[15].caption}</Name>
+                        </Card>                    
                     </Col>
                 </Row>
                 <Row>
                     <Col size={1}>
-                        <img src={images[12].src} style={{width:"25vw", height:"25vw" }}/>
+                        <Card>
+                            <img src={images[16].src} style={{width:"25vw", height:"25vw" }}/>
+                            <Name>{images[16].caption}</Name>
+                        </Card>                    
                     </Col>
                     <Col size={1}>
-                        <img src={images[13].src} style={{width:"25vw", height:"25vw" }}/>
+                        <Card>
+                            <img src={images[17].src} style={{width:"25vw", height:"25vw" }}/>
+                            <Name>{images[17].caption}</Name>
+                        </Card>                    
                     </Col>
                     <Col size={1}>
-                        <img src={images[14].src} style={{width:"25vw", height:"25vw" }}/>
+                        <Card>
+                            <img src={images[18].src} style={{width:"25vw", height:"25vw" }}/>
+                            <Name>{images[18].caption}</Name>
+                        </Card>                    
                     </Col>
                     <Col size={1}>
-                        <img src={images[15].src} style={{width:"25vw", height:"25vw" }}/>
+                        <Card>
+                            <img src={images[19].src} style={{width:"25vw", height:"25vw" }}/>
+                            <Name>{images[19].caption}</Name>
+                        </Card>                    
                     </Col>
                 </Row>
                 <Row>
                     <Col size={1}>
-                        <img src={images[16].src} style={{width:"25vw", height:"25vw" }}/>
+                        <Card>
+                            <img src={images[20].src} style={{width:"25vw", height:"25vw" }}/>
+                            <Name>{images[20].caption}</Name>
+                        </Card>                    
                     </Col>
                     <Col size={1}>
-                        <img src={images[17].src} style={{width:"25vw", height:"25vw" }}/>
+                        <Card>
+                            <img src={images[21].src} style={{width:"25vw", height:"25vw" }}/>
+                            <Name>{images[21].caption}</Name>
+                        </Card>                    
                     </Col>
                     <Col size={1}>
-                        <img src={images[18].src} style={{width:"25vw", height:"25vw" }}/>
+                        <Card>
+                            <img src={images[22].src} style={{width:"25vw", height:"25vw" }}/>
+                            <Name>{images[22].caption}</Name>
+                        </Card>                    
                     </Col>
                     <Col size={1}>
-                        <img src={images[19].src} style={{width:"25vw", height:"25vw" }}/>
+                        <Card>
+                            <img src={images[23].src} style={{width:"25vw", height:"25vw" }}/>
+                            <Name>{images[23].caption}</Name>
+                        </Card>                    
                     </Col>
                 </Row>
                 <Row>
                     <Col size={1}>
-                        <img src={images[20].src} style={{width:"25vw", height:"25vw" }}/>
+                        <Card>
+                            <img src={images[24].src} style={{width:"25vw", height:"25vw" }}/>
+                            <Name>{images[24].caption}</Name>
+                        </Card>                    
                     </Col>
                     <Col size={1}>
-                        <img src={images[21].src} style={{width:"25vw", height:"25vw" }}/>
+                        <Card>
+                            <img src={images[25].src} style={{width:"25vw", height:"25vw" }}/>
+                            <Name>{images[25].caption}</Name>
+                        </Card>                    
                     </Col>
                     <Col size={1}>
-                        <img src={images[22].src} style={{width:"25vw", height:"25vw" }}/>
+                        <Card>
+                            <img src={images[26].src} style={{width:"25vw", height:"25vw" }}/>
+                            <Name>{images[26].caption}</Name>
+                        </Card>                    
                     </Col>
-                    <Col size={1}>
-                        <img src={images[23].src} style={{width:"25vw", height:"25vw" }}/>
+                    <Col size={1} style={{width:"25vw", height:"25vw" }}>
                     </Col>
-                </Row>
-                <Row>
-                    <Col size={1}>
-                        <img src={images[24].src} style={{width:"25vw", height:"25vw" }}/>
-                    </Col>
-                    <Col size={1}>
-                        <img src={images[25].src} style={{width:"25vw", height:"25vw" }}/>
-                    </Col>
-                    <Col size={1}>
-                        <img src={images[26].src} style={{width:"25vw", height:"25vw" }}/>
-                    </Col>
-
                 </Row>
             </Grid>
         </div>
