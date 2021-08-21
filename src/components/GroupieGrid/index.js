@@ -11,7 +11,9 @@ function GroupieGrid () {
         setShow(!show)
     }
     return (
-        <>
+        <>  
+            {}
+
             <GroupieModel toggle={toggle} show={show}/>
             <Grid>
                 <Row>

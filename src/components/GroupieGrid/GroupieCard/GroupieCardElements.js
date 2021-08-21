@@ -17,10 +17,11 @@ export const Details = styled.div`
     
 `
 export const Name = styled.h1`
+    font-size: 3vw;
 `
 
-export const Post = styled.h2`
-
+export const Post = styled.h1`
+    font-size: 1.5vw;
 `
 
 export const Question = styled.h2`
