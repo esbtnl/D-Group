@@ -7,19 +7,25 @@ import domd from '../res/dömd.png'
 function Home() {
     return (
         <div style={{justifyContent: 'center', alignItems: 'center', height:'90vh'}}>
-            <Carousel dynamicHeight="false">
+            <Carousel 
+            dynamicHeight={true}
+            showThumbs={false}
+            autoPlay={true}
+            infiniteLoop={true}
+            transitionTime={1}>
+                
                 <div>
-                    <img src={domd} />
+                    <img src={domd} alt="DÖMD"/>
                     <p className="legend">Legend 1</p>
                 </div>
                 <div>
-                    <img src={patet} />
+                    <img src={patet} alt="Patet"/>
                     <p className="legend">Legend 1</p>
-                </div>
+                </div> 
                 <div>
-                    <img src={"https://imgur.com/IXKo07F"} />
+                    <img src={"https://i.imgur.com/IXKo07F.jpg"} alt="Current"/>
                     <p className="legend">Legend 1</p>
-                </div>        
+                </div>      
 
             </Carousel>
         </div>

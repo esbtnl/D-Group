@@ -1,14 +1,15 @@
 import React from 'react'
-import { Card, Details, Name, Picture, Post } from './GroupieCardElements'
+import { Card, Details, Email, Name, Picture, Post } from './GroupieCardElements'
 
 
-function Groupie() {
+function Groupie({toggle, name, post, email, image}) {
     return (
         <Card>
-            <Picture src="https://i.imgur.com/A1hN172.jpg" style={{width: "20vw"}}></Picture>
+            <Picture src={image} onClick={toggle} style={{width: "20vw"}}></Picture>
             <Details>
-                <Name>Oscar Lönnqvist</Name>
-                <Post>Webb & ÖverDomarenTM</Post>
+                <Name>{name}</Name>
+                <Post>{post}</Post>
+                <Email href = {"mailto:" + email}>{email}</Email>
             </Details>
         </Card>
     )

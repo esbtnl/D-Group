@@ -228,25 +228,25 @@ function WoFGrid() {
                 <Row>
                     <Col size={1}>
                         <Card>
-                            <img src={images[0].src} style={{width:"25vw", height:"25vw" }}/>
+                            <img src={images[0].src} alt="WoF" style={{width:"25vw", height:"25vw" }}/>
                             <Name>{images[0].caption}</Name>
                         </Card>
                     </Col>
                     <Col size={1}>
                         <Card>
-                            <img src={images[1].src} style={{width:"25vw", height:"25vw" }}/>
+                            <img src={images[1].src} alt="WoF" style={{width:"25vw", height:"25vw" }}/>
                             <Name>{images[1].caption}</Name>
                         </Card>                    
                     </Col>
                     <Col size={1}>
                         <Card>
-                            <img src={images[2].src} style={{width:"25vw", height:"25vw" }}/>
+                            <img src={images[2].src} alt="WoF" style={{width:"25vw", height:"25vw" }}/>
                             <Name>{images[2].caption}</Name>
                         </Card>                    
                     </Col>
                     <Col size={1}>
                         <Card>
-                            <img src={images[3].src} style={{width:"25vw", height:"25vw" }}/>
+                            <img src={images[3].src} alt="WoF" style={{width:"25vw", height:"25vw" }}/>
                             <Name>{images[3].caption}</Name>
                         </Card>                    
                     </Col>
@@ -254,25 +254,25 @@ function WoFGrid() {
                 <Row>
                     <Col size={1}>
                         <Card>
-                            <img src={images[4].src} style={{width:"25vw", height:"25vw" }}/>
+                            <img src={images[4].src} alt="WoF" style={{width:"25vw", height:"25vw" }}/>
                             <Name>{images[4].caption}</Name>
                         </Card>                    
                     </Col>
                     <Col size={1}>
                         <Card>
-                            <img src={images[5].src} style={{width:"25vw", height:"25vw" }}/>
+                            <img src={images[5].src} alt="WoF" style={{width:"25vw", height:"25vw" }}/>
                             <Name>{images[5].caption}</Name>
                         </Card>                    
                     </Col>
                     <Col size={1}>
                         <Card>
-                            <img src={images[6].src} style={{width:"25vw", height:"25vw" }}/>
+                            <img src={images[6].src} alt="WoF" style={{width:"25vw", height:"25vw" }}/>
                             <Name>{images[6].caption}</Name>
                         </Card>                    
                     </Col>
                     <Col size={1}>
                         <Card>
-                            <img src={images[7].src} style={{width:"25vw", height:"25vw" }}/>
+                            <img src={images[7].src} alt="WoF" style={{width:"25vw", height:"25vw" }}/>
                             <Name>{images[7].caption}</Name>
                         </Card>                    
                     </Col>
@@ -280,25 +280,25 @@ function WoFGrid() {
                 <Row>
                 <Col size={1}>
                         <Card>
-                            <img src={images[8].src} style={{width:"25vw", height:"25vw" }}/>
+                            <img src={images[8].src} alt="WoF" style={{width:"25vw", height:"25vw" }}/>
                             <Name>{images[8].caption}</Name>
                         </Card>                    
                     </Col>
                     <Col size={1}>
                         <Card>
-                            <img src={images[9].src} style={{width:"25vw", height:"25vw" }}/>
+                            <img src={images[9].src} alt="WoF" style={{width:"25vw", height:"25vw" }}/>
                             <Name>{images[9].caption}</Name>
                         </Card>                    
                     </Col>
                     <Col size={1}>
                         <Card>
-                            <img src={images[10].src} style={{width:"25vw", height:"25vw" }}/>
+                            <img src={images[10].src} alt="WoF" style={{width:"25vw", height:"25vw" }}/>
                             <Name>{images[10].caption}</Name>
                         </Card>                    
                     </Col>
                     <Col size={1}>
                         <Card>
-                            <img src={images[11].src} style={{width:"25vw", height:"25vw" }}/>
+                            <img src={images[11].src} alt="WoF" style={{width:"25vw", height:"25vw" }}/>
                             <Name>{images[11].caption}</Name>
                         </Card>                    
                     </Col>
@@ -306,25 +306,25 @@ function WoFGrid() {
                 <Row>
                     <Col size={1}>
                         <Card>
-                            <img src={images[12].src} style={{width:"25vw", height:"25vw" }}/>
+                            <img src={images[12].src} alt="WoF" style={{width:"25vw", height:"25vw" }}/>
                             <Name>{images[12].caption}</Name>
                         </Card>                    
                     </Col>
                     <Col size={1}>
                         <Card>
-                            <img src={images[13].src} style={{width:"25vw", height:"25vw" }}/>
+                            <img src={images[13].src} alt="WoF" style={{width:"25vw", height:"25vw" }}/>
                             <Name>{images[13].caption}</Name>
                         </Card>                    
                     </Col>
                     <Col size={1}>
                         <Card>
-                            <img src={images[14].src} style={{width:"25vw", height:"25vw" }}/>
+                            <img src={images[14].src} alt="WoF" style={{width:"25vw", height:"25vw" }}/>
                             <Name>{images[14].caption}</Name>
                         </Card>                    
                     </Col>
                     <Col size={1}>
                         <Card>
-                            <img src={images[15].src} style={{width:"25vw", height:"25vw" }}/>
+                            <img src={images[15].src} alt="WoF" style={{width:"25vw", height:"25vw" }}/>
                             <Name>{images[15].caption}</Name>
                         </Card>                    
                     </Col>
@@ -332,25 +332,25 @@ function WoFGrid() {
                 <Row>
                     <Col size={1}>
                         <Card>
-                            <img src={images[16].src} style={{width:"25vw", height:"25vw" }}/>
+                            <img src={images[16].src} alt="WoF" style={{width:"25vw", height:"25vw" }}/>
                             <Name>{images[16].caption}</Name>
                         </Card>                    
                     </Col>
                     <Col size={1}>
                         <Card>
-                            <img src={images[17].src} style={{width:"25vw", height:"25vw" }}/>
+                            <img src={images[17].src} alt="WoF" style={{width:"25vw", height:"25vw" }}/>
                             <Name>{images[17].caption}</Name>
                         </Card>                    
                     </Col>
                     <Col size={1}>
                         <Card>
-                            <img src={images[18].src} style={{width:"25vw", height:"25vw" }}/>
+                            <img src={images[18].src} alt="WoF" style={{width:"25vw", height:"25vw" }}/>
                             <Name>{images[18].caption}</Name>
                         </Card>                    
                     </Col>
                     <Col size={1}>
                         <Card>
-                            <img src={images[19].src} style={{width:"25vw", height:"25vw" }}/>
+                            <img src={images[19].src} alt="WoF" style={{width:"25vw", height:"25vw" }}/>
                             <Name>{images[19].caption}</Name>
                         </Card>                    
                     </Col>
@@ -358,25 +358,25 @@ function WoFGrid() {
                 <Row>
                     <Col size={1}>
                         <Card>
-                            <img src={images[20].src} style={{width:"25vw", height:"25vw" }}/>
+                            <img src={images[20].src} alt="WoF" style={{width:"25vw", height:"25vw" }}/>
                             <Name>{images[20].caption}</Name>
                         </Card>                    
                     </Col>
                     <Col size={1}>
                         <Card>
-                            <img src={images[21].src} style={{width:"25vw", height:"25vw" }}/>
+                            <img src={images[21].src} alt="WoF" style={{width:"25vw", height:"25vw" }}/>
                             <Name>{images[21].caption}</Name>
                         </Card>                    
                     </Col>
                     <Col size={1}>
                         <Card>
-                            <img src={images[22].src} style={{width:"25vw", height:"25vw" }}/>
+                            <img src={images[22].src} alt="WoF" style={{width:"25vw", height:"25vw" }}/>
                             <Name>{images[22].caption}</Name>
                         </Card>                    
                     </Col>
                     <Col size={1}>
                         <Card>
-                            <img src={images[23].src} style={{width:"25vw", height:"25vw" }}/>
+                            <img src={images[23].src} alt="WoF" style={{width:"25vw", height:"25vw" }}/>
                             <Name>{images[23].caption}</Name>
                         </Card>                    
                     </Col>
@@ -384,19 +384,19 @@ function WoFGrid() {
                 <Row>
                     <Col size={1}>
                         <Card>
-                            <img src={images[24].src} style={{width:"25vw", height:"25vw" }}/>
+                            <img src={images[24].src} alt="WoF" style={{width:"25vw", height:"25vw" }}/>
                             <Name>{images[24].caption}</Name>
                         </Card>                    
                     </Col>
                     <Col size={1}>
                         <Card>
-                            <img src={images[25].src} style={{width:"25vw", height:"25vw" }}/>
+                            <img src={images[25].src} alt="WoF" style={{width:"25vw", height:"25vw" }}/>
                             <Name>{images[25].caption}</Name>
                         </Card>                    
                     </Col>
                     <Col size={1}>
                         <Card>
-                            <img src={images[26].src} style={{width:"25vw", height:"25vw" }}/>
+                            <img src={images[26].src} alt="WoF" style={{width:"25vw", height:"25vw" }}/>
                             <Name>{images[26].caption}</Name>
                         </Card>                    
                     </Col>

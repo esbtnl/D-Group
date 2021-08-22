@@ -3,6 +3,7 @@ import styled from "styled-components"
 export const Grid = styled.div`
     margin-top: -5px;
     overflow: hidden;
+    margin-bottom: 5px ;
 `
 
 export const Row = styled.div`
@@ -23,12 +24,12 @@ export const Card = styled.div`
 
 export const Name = styled.h1`
   color: white;
-  background-color: brown;
+  background-color: #754022;
   border: white solid 0.1vw ;
-  border-radius: 10vw;
-  padding: 1vw;
+  border-radius: ;
+  padding: 0.5vw;
   position: absolute;
-  top: 85%;
+  top: 90%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 0.9vw;

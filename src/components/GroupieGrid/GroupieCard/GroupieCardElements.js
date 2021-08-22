@@ -24,6 +24,10 @@ export const Post = styled.h1`
     font-size: 1.5vw;
 `
 
+export const Email = styled.a`
+    font-size: 1.5vw;
+`
+
 export const Question = styled.h2`
 
 `

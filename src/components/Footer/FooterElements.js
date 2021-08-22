@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Grid = styled.div`
     margin-top: -5px;
-`
+    box-shadow: 0 50vh 0 50vh #000;`
 
 export const Row = styled.div`
     display: flex;
